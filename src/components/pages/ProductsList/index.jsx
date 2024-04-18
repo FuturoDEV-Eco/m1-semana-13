@@ -6,14 +6,7 @@ import styles from "./index.module.css";
 
 function ProductsList() {
  // ETAPA 4 - UTILIZANDO O CONTEXTO EM QUALQUER COMPONENTE QUE ESTIVER ENVOLVIDO PELO PROVIDER
- const { cartItems, addToCart } = useContext(ProductContext);
-
- // Lista de produtos
- const products = [
-  { id: 1, name: "Leite", price: 2.99 },
-  { id: 2, name: "Sabonete", price: 4.99 },
-  { id: 3, name: "Maionese", price: 12.5 }
- ];
+ const { cartItems, addToCart, products } = useContext(ProductContext);
 
  return (
   <div>
