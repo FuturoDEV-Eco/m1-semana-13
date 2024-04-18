@@ -23,6 +23,9 @@ function ProductsList() {
      <button>
       <Link to="/counter-hook">Hook counter</Link>
      </button>
+     <button>
+      <Link to="/register-product">Registrar produto</Link>
+     </button>
     </div>
     <button>
      <Link to="/shop-cart">Items no carrinho {cartItems.length}</Link>

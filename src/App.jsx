@@ -4,6 +4,7 @@ import ShopCart from "./components/pages/ShopCart";
 import ProductsList from "./components/pages/ProductsList";
 import ProductContextProvider from "./contexts/products";
 import CounterHook from "./components/pages/CounterHook";
+import RegisterProduct from "./components/pages/RegisterProduct";
 
 function App() {
  const router = createBrowserRouter([
@@ -14,6 +15,10 @@ function App() {
   {
    path: "shop-cart",
    element: <ShopCart />
+  },
+  {
+   path: "register-product",
+   element: <RegisterProduct />
   },
   {
    path: "counter-hook",
